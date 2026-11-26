@@ -86,6 +86,7 @@ export const ICONS: Record<string, LucideIcon> = {
   "floating-chat": QMessageCircleMore,
   "hero-card-flight": PlaneTakeoff,
   "card-blur-reveal": Sparkles,
+  "orbit-card-stack": Layers,
   "hero-split": IPanelRight,
   "hero-centered": IPresentation,
   "feature-rows": IRows3,

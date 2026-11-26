@@ -2829,6 +2829,32 @@
       }
     },
     {
+      "name": "orbit-card-stack",
+      "type": "registry:block",
+      "title": "Orbit Card Stack",
+      "description": "A scroll-driven hero section: showcase cards surround a centered heading along a wide orbital arc, spin closer around the text while scrolling, and converge into a tilted stacked deck below the heading.",
+      "categories": [
+        "sections"
+      ],
+      "dependencies": [
+        "framer-motion"
+      ],
+      "registryDependencies": [
+        "utils"
+      ],
+      "files": [
+        {
+          "path": "registry/quarry/orbit-card-stack.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "docs": "import { OrbitCardStack } from \"@/components/orbit-card-stack\"\n\n<OrbitCardStack />",
+      "meta": {
+        "stage": "fill",
+        "theme": "porcelain"
+      }
+    },
+    {
       "name": "hero-card-flight",
       "type": "registry:component",
       "title": "Hero Card Flight",
