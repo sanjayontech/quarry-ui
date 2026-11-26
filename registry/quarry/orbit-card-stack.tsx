@@ -364,14 +364,14 @@ export function OrbitCardStack({
         {/* Center Heading with soft frosted readability halo */}
         <motion.div
           style={{ y: headingY }}
-          className="relative z-30 flex max-w-[26ch] items-center justify-center px-6 text-center"
+          className="relative z-30 flex items-center justify-center px-6 text-center"
         >
           <motion.div
             aria-hidden="true"
             style={{ opacity: haloOpacity }}
             className="pointer-events-none absolute -inset-x-10 -inset-y-6 rounded-full bg-white/85 blur-2xl"
           />
-          <h2 className="relative text-[clamp(1.65rem,1.1rem+2.5vw,3.1rem)] font-medium leading-[1.08] tracking-[-0.035em] text-neutral-950">
+          <h2 className="relative max-w-[16ch] text-[clamp(1.5rem,1rem+2.1vw,2.65rem)] font-medium leading-[1.08] tracking-[-0.035em] text-neutral-950">
             {heading ?? (
               <>
                 The whole
